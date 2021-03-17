@@ -1,6 +1,4 @@
-import React from "react";
-import './App.css';
-import './Header.js';
+import React from 'react'
 import Header from "./Header";
 import morten from "./Morten.jpg"
 import MailIcon from '@material-ui/icons/Mail';
@@ -9,16 +7,9 @@ import HomeIcon from '@material-ui/icons/Home';
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Main from "./Main";
 
-function App() {
-  return (
-    <div className="app">
-      <Router>
-          <Header />
-            <Switch>
-            <Route path="/"exact component={Main}>
+function Main() {
+    return (
             <div className="app__body">
                 <div className="body__left">
                   <h1>Morten Berge</h1>
@@ -38,16 +29,12 @@ function App() {
                     <FacebookIcon />  
                   </a>
                   </div>
-                </div>
-            <div className="body__right">
+              </div>
+              <div className="body__right">
               <img src={morten}alt="morten"></img>
               </div>
             </div>
-            </Route>
-                          
-            </Switch>
-        </Router>
-    </div>
-  );
+    )
 }
-export default App;
+
+export default Main
