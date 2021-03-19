@@ -23,7 +23,7 @@ function Main() {
                     <GitHubIcon />  
                   </a>
                   <a href="https://www.linkedin.com/in/morten-berge-8280a91aa/">
-                    <LinkedInIcon />  
+                    <LinkedInIcon /> 
                   </a>
                   <a href="https://facebook.com/smekkis">
                     <FacebookIcon />  
