@@ -14,7 +14,7 @@ function App() {
     <div className="app">
       <Router>
         <Header />
-        <Route path="/Main">
+        <Route exact path="/">
           <Main />
         </Route>
         <Route path="/Om">

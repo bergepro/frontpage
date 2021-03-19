@@ -15,7 +15,7 @@ function Header() {
     return <div className="header">
 
             <div className="header__midten">
-                <Link id="Main" to="Main">
+                <Link id="Main" to="/">
                     <div className="header__option ">
                         <p>Home</p>
                         <HomeIcon fontSize="large" />
