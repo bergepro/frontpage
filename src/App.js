@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import './Header.js';
 import Header from "./Header";
-import { BrowserRouter as Router, Route, } from "react-router-dom";
+import { HashRouter as Router, Route, } from "react-router-dom";
 import Om from "./Om";
 import Prosjekter from "./Prosjekter";
 import Main from "./Main";
