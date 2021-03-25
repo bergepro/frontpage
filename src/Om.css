@@ -1,4 +1,9 @@
 .body__left {
     position:absolute;
     display:flex;    
+    
+    
+}
+Button {
+    color:black
 }

@@ -1,0 +1,14 @@
+.prosjekt {
+    
+    display:flex;
+    flex-wrap: wrap;
+    height: 100%;
+    
+  
+    
+}
+
+.prosjekt > Post{
+    height: 100%;
+}
+

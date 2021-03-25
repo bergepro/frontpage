@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from "./Header";
 import morten from "./Morten.jpg"
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
