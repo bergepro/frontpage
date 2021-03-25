@@ -33,6 +33,7 @@ function Main() {
               <img src={morten}alt="morten"></img>
               </div>
             </div>
+          
     )
 }
 
